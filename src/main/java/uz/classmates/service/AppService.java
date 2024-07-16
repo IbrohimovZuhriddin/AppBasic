@@ -13,7 +13,6 @@ public class AppService {
     private AppRepository repository;
 
     public void create (AppDTO dto) {
-
         AppEntity entity = new AppEntity();
         entity.setName(dto.getName());
         entity.setSurname(dto.getSurname());
