@@ -18,7 +18,6 @@ public class AppService {
         entity.setName(dto.getName());
         entity.setSurname(dto.getSurname());
         entity.setPhoneNumber(dto.getPhoneNumber());
-
         repository.save(entity);
     }
 

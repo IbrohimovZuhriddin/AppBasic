@@ -11,8 +11,6 @@ public class AppEntity {
 
     @Id
     private Integer id;
-
-
     private String name ;
     private String surname;
     private Integer phoneNumber;
